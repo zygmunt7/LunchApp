@@ -19,8 +19,6 @@ public class Deliverer extends Employee{
     private List<Order> orders;
 
     @Nullable
-
-    @Nullable
     public List<Order> getOrders() {
         return orders;
     }

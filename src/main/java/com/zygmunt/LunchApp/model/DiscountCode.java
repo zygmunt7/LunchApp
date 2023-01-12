@@ -29,7 +29,7 @@ import java.util.UUID;
     @Digits(integer = 10, fraction = 2)
     @Min(0)
     @NotNull
-    private BigDecimal bigDecimal;
+    private BigDecimal discount;
 
     @NotNull
     @Enumerated(EnumType.STRING)
